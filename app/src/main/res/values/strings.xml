@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PaddleOCR 工作台</string>
+    <string name="app_subtitle">百度飞桨智能文档解析与文字识别</string>
+
+    <!-- Header Actions -->
+    <string name="action_token_settings">API Token 配置</string>
+    <string name="action_api_docs">开发指南</string>
+    <string name="action_new_task">新建任务</string>
+    <string name="action_export">导出结果</string>
+    <string name="action_code_snippet">生成调用代码</string>
+
+    <!-- Scenarios -->
+    <string name="scenario_general">通用文字识别</string>
+    <string name="scenario_doc_parse">智能文档解析</string>
+    <string name="scenario_table">表格识别提取</string>
+    <string name="scenario_formula">数学公式识别</string>
+    <string name="scenario_seal">印章文本识别</string>
+
+    <string name="scenario_desc_general">多语言高精度文本检测与识别 (PP-OCRv4)</string>
+    <string name="scenario_desc_doc_parse">版面分析与结构还原转 Markdown (PP-DocBee)</string>
+    <string name="scenario_desc_table">复杂有线/无线表格结构还原与导出 (SLANet)</string>
+    <string name="scenario_desc_formula">行内/独立数学公式转标准 LaTeX 语法</string>
+    <string name="scenario_desc_seal">圆形/椭圆弯曲红色印章文本检测与提取</string>
+
+    <!-- Upload & Presets -->
+    <string name="upload_card_title">上传文件或选择预设样例</string>
+    <string name="upload_card_hint">支持 JPG, PNG, BMP, PDF 格式</string>
+    <string name="btn_camera">拍照</string>
+    <string name="btn_gallery">相册</string>
+    <string name="btn_pdf">PDF</string>
+    <string name="preset_samples_title">或快速体验内置经典样例：</string>
+
+    <!-- Preset Names -->
+    <string name="preset_paper">学术论文 (含公式/双栏)</string>
+    <string name="preset_financial_table">财务报表 (合并表格)</string>
+    <string name="preset_invoice">增值税发票 (KIE字段)</string>
+    <string name="preset_contract_seal">带红章合同 (印章提取)</string>
+    <string name="preset_doc_multilang">中英文混合排版文档</string>
+
+    <!-- Configuration Options -->
+    <string name="config_title">运行配置参数</string>
+    <string name="config_orientation">文本方向自动纠偏</string>
+    <string name="config_layout">开启版面元素分析</string>
+    <string name="config_model">识别模型</string>
+    <string name="config_threshold">置信度过滤阈值</string>
+
+    <string name="btn_start_ocr">开始识别解析</string>
+    <string name="btn_processing">正在解析中...</string>
+
+    <!-- Tabs -->
+    <string name="tab_doc_parse">文档解析</string>
+    <string name="tab_markdown">Markdown 预览</string>
+    <string name="tab_table">表格数据</string>
+    <string name="tab_json">JSON</string>
+    <string name="tab_code">API 代码</string>
+
+    <!-- Result actions -->
+    <string name="action_copy">复制内容</string>
+    <string name="action_toggle_overlay">隐藏标注框</string>
+    <string name="action_toggle_overlay_show">显示标注框</string>
+    <string name="action_reset_zoom">适应画布</string>
+    <string name="interactive_hint">💡 点击画布上的检测框可在下方高亮对应文本，点击文本可定位框体</string>
+
+    <!-- Token Dialog -->
+    <string name="token_dialog_title">飞桨星河社区 API Token 配置</string>
+    <string name="token_dialog_hint">请输入您在 AI Studio 获取的 Access Token</string>
+    <string name="token_dialog_guide">前往 aistudio.baidu.com/paddleocr/task 免费申请专属 Token</string>
+    <string name="token_saved_success">Token 保存成功</string>
+    <string name="token_mode_cloud">当前模式：云端真实大模型解析</string>
+    <string name="token_mode_mock">当前模式：内置本地离线全真演示引擎</string>
+
+    <!-- Export Dialog -->
+    <string name="export_title">保存识别结果到本地文件</string>
+    <string name="export_markdown">保存为 Markdown (.md)</string>
+    <string name="export_json">保存为结构化 JSON (.json)</string>
+    <string name="export_csv">保存表格为 CSV (.csv)</string>
+    <string name="export_annotated_img">保存带标注框图片到本地</string>
+    <string name="export_success">导出成功</string>
+
+    <!-- Code Generation -->
+    <string name="code_generator_title">开发者集成代码</string>
+    <string name="code_lang_python">Python (Requests)</string>
+    <string name="code_lang_curl">cURL 命令行</string>
+    <string name="code_lang_kotlin">Android (Kotlin / Retrofit)</string>
+    <string name="mcp_notice">飞桨 PaddleOCR 现已全面支持 MCP (Model Context Protocol) 协议，可与 Claude / Cursor / Agent 无缝集成！</string>
+</resources>

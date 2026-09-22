@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/export_title"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExportMarkdown"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/export_markdown"
+        android:textColor="@color/text_primary"
+        app:icon="@drawable/ic_copy"
+        app:iconTint="@color/primary"
+        app:strokeColor="@color/border_light" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExportJson"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/export_json"
+        android:textColor="@color/text_primary"
+        app:icon="@drawable/ic_code"
+        app:iconTint="@color/primary"
+        app:strokeColor="@color/border_light" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExportCsv"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/export_csv"
+        android:textColor="@color/text_primary"
+        app:icon="@drawable/ic_export"
+        app:iconTint="@color/primary"
+        app:strokeColor="@color/border_light" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveAnnotatedImage"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/export_annotated_img"
+        android:textColor="@color/text_primary"
+        app:icon="@drawable/ic_gallery"
+        app:iconTint="@color/primary"
+        app:strokeColor="@color/border_light" />
+
+</LinearLayout>
